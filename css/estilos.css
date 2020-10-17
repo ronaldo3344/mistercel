@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: rale;
+}
+
+html{
+    background-color: aquamarine;
+    scroll-behavior: smooth;
+}
+
+#contenedor{
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+#encabezado{
+    width: 100%;
+    height: 200px;
+    display: table;
+    background-color: brown;
+    transition: 1s;
+}
+
+#encabezado p{
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    padding-top: 30px;
+    transition: .5s;
+}
+#encabezado:hover{
+    background: rgba(255, 0, 0, 0.76);
+}
+#encabezado p:hover{
+    font-size: 110px;
+}
+#pie{
+    width: 100%;
+    display: table;
+    background-color: rgb(223, 65, 65);
+    text-align: center;
+    padding-top: 3.6%;
+    padding-bottom: 3.6%; 
+    font-size: 26px;
+}
+
+#imagenes{
+    display: table;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(25, 55, 85);
+    text-align: center;
+    color: white;
+}
+
+p{
+    text-align: justify;
+}
+
+#quienes{
+    display: table;
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(255, 186, 96);
+    color: #000;
+}
+
+#contacto{
+    display: table;
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(68, 134, 255);
+}
+
+#productos{
+    display: table;
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(248, 203, 89);
+    color: black;
+}
+
+#nav{
+    display: table;
+    width: 100%;
+    background: rgb(17, 152, 156);
+    float: right;
+    text-align: right;
+}
+
+#nav ul{
+    display: inline-flex;
+    
+}
+
+#nav li{
+    list-style: none;
+    padding: 25px 0px 25px 0px;
+    transition: .5s;
+    border-left: 1px solid black;
+}
+#nav li:hover{
+    background: rgb(15, 196, 202)
+}
+
+#nav li a{
+    text-decoration: none;
+    color: white;
+    padding: 25px;
+    transition: .5s;
+    font-size: 20px;
+}
+
+#nav li a:hover{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    transition: .5s;
+}
+.marquesi{
+    width: 100%;
+    height: 40px;
+    background: aquamarine;
+    font-size: 30px;
+    margin: auto;
+    color: black;
+    font-weight: bold;
+    padding-top: 5px; 
+}
+.marquesi a{
+    text-decoration: none;
+    color: black;
+}
+.marquesi a:hover{
+    color: rgb(32, 47, 185);
+    text-decoration: underline;
+}
+#up{
+    display: table;
+    width: 60px;
+    height: 60px;
+    background: rgb(9, 200, 0);
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 5%;
+    right: 2%;
+    border-radius: 50%;
+    vertical-align: middle;
+    line-height: 60px;
+    transition: .4s;
+}
+#up:hover{
+    background: rgb(9, 255, 0);
+}
+#up a{
+    text-decoration: none;
+    list-style: none;
+}
+#fb img{
+    display: table;
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 15%;
+    right: 2%;
+    border-radius: 50%;
+    vertical-align: middle;
+    line-height: 60px;
+    transition: .4s;
+}
+
+#tw img{
+    display: table;
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 25%;
+    right: 2%;
+    border-radius: 50%;
+    vertical-align: middle;
+    line-height: 60px;
+    transition: .4s;
+}
+
+#ins img{
+    display: table;
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 35%;
+    right: 2%;
+    border-radius: 50%;
+    vertical-align: middle;
+    line-height: 60px;
+    transition: .4s;
+}
+.columnasx3{
+    width: 30%;
+    float: left;
+    padding: 20px;
+    margin: auto;
+    text-decoration: none;
+}
+
+.columnasx3 p{
+    color: #fff;
+    text-align: justify;
+    font-size: 18px;
+    width: 100%;
+}
+.columnasx3 img{
+    width: 80%;
+    height: 80%;
+    text-decoration: none;
+    transition: .5s;
+    border: 5px solid black;
+}
+.columnasx3 img:hover{
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+    border: 5px solid #fff;
+}
+.columnasx33{
+    width: 30%;
+    padding: 20px;
+    margin: auto;
+    text-decoration: none;
+}
+.columnasx33 img{
+    width: 80%;
+    height: 80%;
+    text-decoration: none;
+    transition: .5s;
+    border: 5px solid black;
+}
+.columnasx33 img:hover{
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+    border: 5px solid #fff;
+}
+.columnasx32{
+    width: 30%;
+    float: left;
+    padding: 20px;
+    margin: auto;
+    text-decoration: none;
+}
+
+.columnasx32 p{
+    color: #000;
+    text-align: justify;
+    font-size: 18px;
+    width: 100%;
+}
+.columnasx32 img{
+    width: 50%;
+    text-decoration: none;
+}
+.columnasx32 .imgbox{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+    clip-path: circle(100px at center 120px);
+}
+.columnasx32:hover .imgbox{
+    clip-path: circle(400px at center 100px);
+}
+.formulario{
+    background: rgba(46, 46, 61, 0.685);
+    width: 300px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.form-control{
+    width: 85%;
+    letter-spacing: 1px;
+	padding: 10px 0;
+	font-size: 16px;
+    margin-bottom: 30px;
+    background: rgba(0, 0, 0, 0.247);
+    border-radius: 10px;
+    outline: none;
+    color: rgb(255, 255, 255);
+	border: 2px solid rgba(55, 140, 180, 0.712);
+    vertical-align: top;
+    display: inline-block;
+}
+form textarea {
+    max-width:200px;
+    min-width: 200px;
+	max-height:100px;
+	min-height:100px;
+}
+.form-control:focus{
+    border: 2px solid rgb(168, 148, 33);
+}
+input[type="submit"]{    
+    display: block;
+	margin:auto;
+	text-align: center;
+	padding: 15px 40px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    background: rgba(51, 27, 184, 0.712);
+    cursor: pointer;
+	border-radius: 20px;
+}
+.formulario input[type="submit"]:hover{
+    transition: .2s;
+    background: rgb(25, 129, 155);
+}
+@font-face{
+    font-family: rale; 
+    src: url(Raleway-Regular.ttf);
+}
