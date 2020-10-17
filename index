@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/Raleway-Regular.ttf">
+    <link href="../imagenes/favicon.png" rel="icon" type="image/png" />
+    <title>  Mistercel One Page </title>
+</head>
+
+<body>
+    <div id="contenedor">
+        <div id="encabezado">
+            <p>
+                Mistercel One Page
+            </p>
+        </div>
+        <div id="nav">
+            <ul>
+                <li><a href="#imagenes">Imagenes</a></li>
+                <li><a href="#quienes">Quienes somos</a></li>
+                <li><a href="#contacto">Contactos</a></li>
+                <li><a href="#productos">Productos</a></li>
+            </ul>
+        </div>
+        <marquee class="marquesi" behavior="alternate" direction="left"><a href="#">NO TE LO PIERDAS</a></marquee>
+
+        <div id="imagenes">
+            <h1>
+                Imagenes
+            </h1>
+            <div class="columnasx3">
+                <img src="../imagenes/F.jpg" alt="">
+                <h4>Telefono de Meucci, 1854</h4>
+                <p>Antonio Meucci, inventor de el primer dispositivo de telecomunicacion diseñado para transmitir
+                    señales acusticas a distancia por medio de señales electricas, aunque no formalizo su patente
+                    por dificultades economicas.</p>
+            </div>
+            <div class="columnasx3">
+                <img src="../imagenes/F1.jpg" alt="">
+                <h4>Telefono movil, 1990</h4>
+                <p>Durante los inicios de la telefonia movil, estos dispositivos tenian funciones tan limitadas
+                    como solamente realizar llamadas.</p>
+            </div>
+            <div class="columnasx3">
+                <img src="../imagenes/F2.jpg" alt="">
+                <h4>Telefono inteligente, actualidad</h4>
+                <p>
+                    Es un tipo de ordenador de bolsillo con las capacidades de un telefono movil sobre una
+                    plataforma informatica movil, con mayor capacidad de almacenar datos y realizar actividades
+                    simultaneamente, tareas que realiza una computadora y con una mayor conectividad.
+                </p>
+            </div>
+        </div>
+
+        <div id="quienes">
+            <h1>
+                Quienes somos
+            </h1>
+            <p>
+                <center>Somos una empresa dedicada a la enseñanza, venta y compra de dispositivos moviles como
+                    y para el publico, fundada el 10 de febrero del 2005, hasta la actualidad.
+                    Nuestro personal es un de los mas calificados en latinoamerica, y en estos momentos
+                    buscamos empleados dispuestos a dar todo por el objetivo de la empresa.
+
+            </p>
+            <div class="columnasx33">
+                <img src="../imagenes/F3.jpg">
+            </div>
+            </center>
+        </div>
+        <div id="contacto">
+            <h1>
+                Contactos
+            </h1>
+
+            <p>
+                <center>Puedes enviarnos tu opinion y analizaremos tu peticion o queja para responderte lo
+                    antes posible y satifascer tu necesidad.</center>
+            </p>
+
+            <form action="" class="formulario" method="POST">
+                <center>
+                    <label>Ingrese su correo</label>
+                    <input type="email" class="form-control" placeholder="Correo:" required="">
+                    <br>
+                    <label>Ingrese su mensaje</label>
+                    <textarea class="form-control" placeholder="Mensaje:"></textarea>
+                    <br>
+                    <input type="submit">
+                </center>
+            </form>
+        </div>
+        <div id="productos">
+            <h1>
+                Productos
+            </h1>
+            <p>
+                <center>
+                    <b> ACA TIENES NUESTROS PRODUCTOS DISPONIBLES</b>
+                </center>
+            </p>
+            <div class="contenedor">
+                <div class="columnasx32">
+                    <div class="imgbox">
+                        <img src="../imagenes/s.jpg" alt="">
+                    </div>
+                    <h4>Samsung S10+</h4>
+                    <p>El Samsung Galaxy S10+ es el más poderoso de la serie Galaxy S10. Con una pantalla
+                        AMOLED QHD+ de 6.4 pulgadas, posee el procesador Exynos 9820 octa-core o Snapdragon
+                        855, 6GB o 12GB de RAM y 128GB, 512GB o 1TB de almacenamiento. Triple camara 12 MP + 12
+                        MP + 16 MP,camara frontal de 10 MP + 8 MP. Batería de 4100 mAh con carga rápida
+                        inalámbrica, puede cargar otros dispositivos, lector de huellas bajo pantalla, puerto
+                        USB-C, parlantes stereo. Debuta con su versión cerámica en blanco o negro.</p>
+                </div>
+                <div class="columnasx32">
+                    <div class="imgbox">
+                        <img src="../imagenes/i.jpg" alt="">
+                    </div>
+                    <h4>iPhone 11</h4>
+                    <p>El Apple iPhone 11 es el sucesor del iPhone Xr para el 2019. Este año el iPhone 11 llega
+                        con una pantalla de 6.1 pulgadas con resolución Liquid Retina y potenciado por un
+                        procesador Apple A13 Bionic con 64GB, 128GB o 256GB de almacenamiento interno. La
+                        cámara posterior del iPhone 11 ahora es dual, con un lente regular de 12 MP y otro gran
+                        angular de 12 MP, mientras que su cámara frontal es de 12 MP. El iPhone 11 cuenta con
+                        una batería de 3110 mAh con carga rápida, parlantes stereo con sonido Dolby Atmos,
+                        carga inalámbrica y utiliza reconocimiento de rostro Face ID para seguridad.</p>
+                </div>
+                <div class="columnasx32">
+                    <div class="imgbox">
+                        <img src="../imagenes/x1.jpg" alt="">
+                    </div>
+                    <h4>Xiaomi Redmi Note 8</h4>
+                    <p>
+                        El Xiaomi Redmi Note 8 marca la octava generación de la serie Redmi Note, esta vez con
+                        una pantalla Full HD+ de 6.3 pulgadas y potenciado por un procesador Snapdragon 665 de
+                        ocho núcleos. Con opciones de 4GB de memoria RAM y 64GB de almacenamiento, 6GB de RAM y
+                        64GB de almacenamiento o 6GB de RAM y 128GB de almacenamiento, el Redmi Note 8 cuenta
+                        con una cámara cuádruple en su posterior de 48 MP + 8 MP + 2 MP + 2 MP, y su cámara
+                        para selfies es de 13 megapixels. El Redmi Note 8 completa sus características con una
+                        batería de 4000 mAh con soporte para carga rápida, lector de huellas montado en su
+                        parte posterior, resistencia a salpicaduras y corre MIUI 10 basado en Android 9.0 Pie.
+                    </p>
+                </div>
+                <div class="columnasx32">
+                    <div class="imgbox">
+                        <img src="../imagenes/h.jpg" alt="">
+                    </div>
+                    <h4>Huawei P30 Pro</h4>
+                    <p>El Huawei P30 Pro sube la apuesta del P30 con una pantalla Full HD+ de 6.47 pulgadas.
+                        Potenciado por el mismo procesador Kirin 980 de ocho núcleos, el Huawei P30 Pro está
+                        disponible en variantes de 6GB de memoria RAM y 128GB de almacenamiento, o 8GB de
+                        memoria RAM y 128GB, 256GB o 512GB de almacenamiento interno, expandible en ambos casos
+                        con memorias NM de Huawei. La cámara del Huawei P30 Pro es cuádruple en configuración
+                        40MP + 20MP + 8MP + TOF, mientras que su cámara frontal es de 32MP. El P30 Pro tiene
+                        una batería de 4200 mAh con carga ultra rápida que permite cargar al 70% en 30 minutos,
+                        cámara rápida inalámbrica, lector de huellas bajo pantalla, resistencia al agua, y
+                        sonido Hi-Fi, corriendo Android 9.0 Pie con la interfaz EMUI</p>
+                </div>
+                <div class="columnasx32">
+                    <div class="imgbox">
+                        <img src="../imagenes/m.jpg" alt="">
+                    </div>
+                    <h4>Motorola G8 Plus</h4>
+                    <p>Motorola Moto G8 Plus Características Opiniones (13) Noticias Reviews (0) Comparar
+                        Características técnicas Motorola Moto G8 Plus Compartir Tweet Motorola Moto G8 Plus El
+                        Motorola Moto G8 Plus es el smartphone más poderoso de la octava generación de la serie
+                        Moto G de Motorola. Con una pantalla Full HD+ de 6.3 pulgadas, el Moto G8 Plus está
+                        potenciado por un procesador Snapdragon 665, acompañado de 4GB de memoria RAM y 64GB de
+                        almacenamiento interno expandible. La cámara trasera del Moto G8 Plus es triple, de 48
+                        MP + 16 MP + 5 MP, mientras que su cámara frontal para selfies es de 25 MP. El Moto G8
+                        Plus completa sus características con una batería de 4000 mAh con carga rápida, lector
+                        de huellas y corre Android 9.0 Pie.</p>
+                </div>
+                <div class="columnasx32">
+                    <div class="imgbox">
+                        <img src="../imagenes/x.jpg" alt="">
+                    </div>
+                    <h4>Xiaomi Mi Note 10</h4>
+                    <p>
+                        Xiaomi Mi Note 10 Características Opiniones (0) Noticias Reviews (0) Comparar
+                        Características técnicas Xiaomi Mi Note 10 Compartir Tweet Xiaomi Mi Note 10 El Xiaomi
+                        Mi Note 10 es la variante para Occidente del Xiaomi Mi CC9 Pro lanzado en China con una
+                        cámara de cinco sensores, siendo el principal de 108 megapixels. El Xiaomi Mi Note 10
+                        cuenta con una pantalla Super AMOLED Full HD+ de 6.47 pulgadas y está potenciado por un
+                        procesador Snapdragon 730G con 6GB de memoria RAM y 128GB de almacenamiento interno no
+                        expandible. Su cámara principal es de 108 MP + 12 MP + 20 MP + 5 MP + 2 MP, mientras
+                        que su cámara para selfies es de 32 MP, alojada en el frente con un notch. Completando
+                        las características del Xiaomi Mi Note 10 encontramos una batería de 5260 mAh con carga
+                        rápida de 30W, puerto USB-C, sonido HiFi, lector de huellas integrado bajo la pantalla
+                        y MIUI 11 basado en Android 9.0 Pie.
+                    </p>
+                </div>
+            </div>
+            <div id="pie">
+                &copy; 2020. Todos los derechos reservados.
+                     by  Ronaldo Rosendo 
+            </div>
+
+        </div>
+        <div id="up">
+            <a href="#">
+                <div class="icono" style="font-size:24px;color:aliceblue">UP</div>
+            </a>
+        </div>
+        <div id="fb">
+            <a href="#">
+                <div class="icono"><a href="https://www.facebook.com/"><img src="../imagenes/fb.png" alt=""></a>
+                </div>
+            </a>
+        </div>
+        <div id="tw">
+            <a href="#">
+                <div class="icono"><a href="https://www.twitter.com/"><img src="../imagenes/tw.png" alt=""></a>
+                </div>
+            </a>
+        </div>
+        <div id="ins">
+            <a href="#">
+                <div class="icono"><a href="https://www.google.com/"><img src="../imagenes/go.png" alt=""></a>
+                </div>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
